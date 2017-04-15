@@ -2,8 +2,6 @@
 var express = require('express');
 // Creates an Express server.
 var app = express();
-var Util = require("./util");
-var reverseString = Util.reverseString;
 var bodyParser = require('body-parser');
 
 // Starts the server on port 3000!
